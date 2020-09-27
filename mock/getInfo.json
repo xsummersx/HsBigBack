@@ -5,7 +5,7 @@
     "cun": {
       "Text": {
         "nameNumber": 265,
-        "organNuber": 120,
+        "organNumber": 120,
         "changeNumber": 120,
         "changeObj": {
           "ch1": {
@@ -105,7 +105,7 @@
     "shequ": {
       "Text": {
         "nameNumber": 120,
-        "organNuber": 120,
+        "organNumber": 120,
         "changeNumber": 97,
         "changeObj": {
           "ch1": {

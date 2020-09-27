@@ -476,10 +476,12 @@
 
       //页面初始化
       $scope.Init = function () {
+        //esay mock模拟数据
+        //let url = 'https://www.easy-mock.com/mock/5f6c3e22dba12925bcd53749/getInfo/HsBB_GetInfo';
+        //接口崩溃用这个
+        let url = "json/getInfo.json";
         $http
-          .get(
-            'https://www.easy-mock.com/mock/5f6c3e22dba12925bcd53749/getInfo/HsBB_GetInfo'
-          )
+          .get(url)
           .then(function (res) {
             if (res.data.Code == 1) {
               console.log(res.data.Data)

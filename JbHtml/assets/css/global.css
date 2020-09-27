@@ -1,0 +1,172 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'FZST';
+}
+/* 字体 */
+@font-face {
+  font-family: 'FZST';
+  src: url('../font/FZCHSJW.woff2') format('woff2'),
+    url('../font/FZCHSJW.woff') format('woff'),
+    url('../font/FZCHSJW.ttf') format('truetype'),
+    url('../font/FZCHSJW.eot') format('embedded-opentype'),
+    url('../font/FZCHSJW.svg') format('svg');
+}
+.btn1 {
+  width: 240px;
+  height: 360px;
+  border: 1px solid #4f89b2;
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  font-size: 22px;
+  margin: 35px 5px 0 5px;
+}
+
+.orange {
+  color: #ff6600;
+}
+.blue {
+  color: #40d3f2;
+}
+.bigFont {
+  font-size: 22px;
+}
+.smallFont {
+  font-size: 18px;
+}
+.main {
+  width: 1920px;
+  background: url(../img/bigback.png) no-repeat top center;
+  height: 1080px;
+}
+.titleBox {
+  height: 170px;
+  width: 100%;
+  overflow: hidden;
+}
+.titleBtn {
+  width: 137px;
+  height: 64px;
+  margin: 70px 0 0 10px;
+  background: url(../img/backhover.png) no-repeat center center;
+  background-size: 100%;
+  text-align: center;
+  line-height: 88px;
+  float: left;
+}
+.titleBtn .icon {
+  cursor: pointer;
+}
+.titleText {
+  width: 890px;
+  color: #fff;
+  height: 60px;
+  margin: 0 auto;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+  margin-top: 35px;
+  padding-left: 110px;
+  letter-spacing: 4px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+}
+.kuang1 {
+  width: 658px;
+  height: 420px;
+  margin: 8px;
+  background: url(../img/kuang1.png) no-repeat bottom center;
+  background-size: 98%;
+}
+.kuang2 {
+  display: flex;
+  justify-content: center;
+  width: 544px;
+  height: 420px;
+  margin: 8px;
+  background: url(../img/kuang2.png) no-repeat bottom center;
+  background-size: 100%;
+}
+.kuang3 {
+  width: 940px;
+  height: 414px;
+  margin: 12px 8px;
+  background: url(../img/kuang3.png) no-repeat bottom center;
+  background-size: 98%;
+}
+.kuangTit {
+  width: 108px;
+  height: 36px;
+  margin: 0 auto;
+  background: url(../img/titleBack.png) no-repeat top center;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  line-height: 36px;
+}
+.echartBox {
+  display: flex;
+  justify-content: center;
+}
+.echart {
+  width: 220px;
+  height: 360px;
+}
+.conMan {
+  width: 160px;
+  height: 360px;
+}
+
+.MainItem {
+  padding-top: 10px;
+  float: left;
+  width: 80px;
+  height: 180px;
+  text-align: center;
+}
+.TextBig {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+  width: 100%;
+  line-height: 44px;
+}
+.TextSmall {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  line-height: 20px;
+}
+.InfoText1 {
+  margin-top: 20px;
+  font-size: 28px;
+  color: #2ba3ad;
+  text-align: center;
+  line-height: 60px;
+}
+.InfoText2 {
+  font-size: 24px;
+  color: #ff6600;
+  text-align: center;
+  line-height: 60px;
+  font-weight: normal;
+}
+.InfoText3 {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-weight: normal;
+}
+.InfoText3 span {
+  font-size: 20px;
+}
